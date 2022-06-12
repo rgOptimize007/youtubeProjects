@@ -26,6 +26,9 @@ public class App
        em.getTransaction().commit();
        
        System.out.println(emp);
+       
+       //Note : project might throw an "PersistenceException". 
+       //Same can be resolved by searching it on Google.
     	
     }
 }
